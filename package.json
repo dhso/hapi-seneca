@@ -1,0 +1,40 @@
+{
+    "name": "hapi-seneca",
+    "version": "1.0.0",
+    "description": "Seneca for hapi",
+    "main": "./lib",
+    "scripts": {
+        "test": "standard && lab --verbose --colors --assert code --timeout 10000",
+        "test-dirty": "lab --verbose --colors --assert code --timeout 10000"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/dhso/hapi-seneca.git"
+    },
+    "keywords": [
+        "hapi",
+        "seneca"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dhso/hapi-seneca/issues"
+    },
+    "author": {
+        "name": "dhso",
+        "email": "dhso@163.com"
+    },
+    "dependencies": {
+        "cast-array": "^1.0.0",
+        "glob": "^5.0.3"
+    },
+    "devDependencies": {
+        "code": "^5.1.2",
+        "hapi": "^17.0.0",
+        "lab": "^15.1.2",
+        "standard": "^10.0.3"
+    },
+    "homepage": "https://github.com/dhso/hapi-seneca",
+    "peerDependencies": {
+        "hapi": "^17.0.0"
+    }
+}

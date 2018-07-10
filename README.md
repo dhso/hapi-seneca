@@ -1,6 +1,12 @@
 # hapi-seneca
 a hapi plugin for seneca with sync(await)
 
+# install
+
+```
+npm install github:dhso/hapi-seneca
+```
+
 # options: set path to scan seneca files
 
 ```

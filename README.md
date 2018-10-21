@@ -14,7 +14,7 @@ path: 'senecas/**/*.js'
 ```
 
 # path: senecas/matchs.js
-```
+```javascript
 module.exports = function math(options) {
 
   this.add({ role: 'math', cmd: 'sum' }, function sum(msg, respond) {
@@ -34,7 +34,7 @@ module.exports = function math(options) {
 ```
 
 # in router
-```
+```javascript
 let seneca_router = {
     method: ['GET'],
     path: '/seneca/router',
